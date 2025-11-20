@@ -15,8 +15,7 @@ This project implements a complete **end-to-end MLOps pipeline** for predicting 
 | **Model Evaluation** | Evaluates performance, logs metrics to `metrics.json` and MLflow. |
 
 **📌 Dataset Source:**  
-*(Wine Quality Data by Krishnaik)*  
-`https://github.com/krishnaik06/datasets/raw/refs/heads/main/winequality-data.zip`
+*(Wine Quality Data)*  
 
 ---
 
@@ -51,7 +50,7 @@ All features are `float64`, target column is `int64`.
 ## 🚀 Setup & Run
 
 ### **📍 Prerequisites**
-- Python 3.x
+- Python 3.12
 - pip installed
 
 ---
@@ -60,7 +59,7 @@ All features are `float64`, target column is `int64`.
 
 ```bash
 # Clone the repository
-git clone <Your-Repository-URL>
+git clone <Repository-URL>
 cd wine-quality-prediction-mlops
 
 # Install dependencies

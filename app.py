@@ -12,7 +12,7 @@ def homepage():
 
 @app.route('/train', methods=['GET'])
 def training():
-    os.system("uv run main.py")
+    os.system("python main.py")
     return "Training Successfull"
 
 @app.route('/predict',methods=['POST','GET']) # route to show the predictions in a web UI
